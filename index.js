@@ -13,5 +13,5 @@ button.addEventListener("click", ()=>{
     const g = Math.ceil(Math.random()*256);
     const b = Math.ceil(Math.random()*256);
     background.style.backgroundColor= `rgb(${r}, ${g}, ${b})`;
-    colorCode.innerHTML=`rgb(${r}, ${g}, ${b})`;
+    colorCode.innerHTML=`RGB(${r}, ${g}, ${b})`;
 })
